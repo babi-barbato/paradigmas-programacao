@@ -9,7 +9,7 @@ def perform_ocr (image_path):
     text = pytesseract.image_to_string(image, lang='por')
     return text
 
-image_path = r"C:\Users\babib\OneDrive\Documentos\paradigmas-programacao\aula3\imagem-texto.png"
+image_path = r"C:\Users\babib\OneDrive\Documentos\paradigmas-programacao\aula3\imagem-exemplo.png"
 
 print("Realizando OCR...")
 ocr_text = perform_ocr(image_path)

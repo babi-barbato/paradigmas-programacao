@@ -1,6 +1,6 @@
 import fitz
 
-doc = fitz.open(r"C:\Users\babib\OneDrive\Documentos\paradigmas-programacao\aula3\pdfComImagem.pdf-")
+doc = fitz.open(r"C:\Users\babib\OneDrive\Documentos\paradigmas-programacao\aula3\pdfImagem.pdf")
 page = doc[0]
 text = page.get_text()
 

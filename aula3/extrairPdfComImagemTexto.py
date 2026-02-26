@@ -18,7 +18,7 @@ def extrect_text_from_pdf(pdf_path):
     return texto_extraido
 
 # Caminho da Imagem
-image_path = ""
+image_path = "C:\Users\babib\OneDrive\Documentos\paradigmas-programacao\aula3\pdfImagem.pdf"
 
 # Realizar OCR na imagem
 ocr_text = extrect_text_from_pdf(image_path)
