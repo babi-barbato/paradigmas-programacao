@@ -22,7 +22,7 @@ bin0 = cv2.bitwise_not(bin0)
 
 plt.figure(figsize=(8, 6))
 # plt.imshow(bin, cmap='gray')
-# plt.imshow(bin, cmap='gray')
+plt.imshow(bin, cmap='gray')
 plt.title("Binarizaçao da imagem por threshold fixo")
 plt.axis("off")
 plt.show()

@@ -39,7 +39,7 @@ ladolado = np.vstack([
 ])
 
 plt.figure(figsize=(10,8))
-plt.imshow(imagemOrig)
+plt.imshow(ladolado)
 plt.title("Objetos detectados: " + str(len(contornos)))
 plt.axis("off")
 plt.show()

@@ -34,7 +34,7 @@ contornos, hierarquia = cv2.findContours(bordas, cv2.RETR_EXTERNAL, cv2.CHAIN_AP
 # que precisa para trazer o contorno, trás só que é realmente necessário
 
 # 7- Desenhar na imagem original
-cv2.drawContours(imagemOrig, contornos, -1, (0, 255, 0), 2) # -1 define que quero pegar todas as bordas | cor da linha | espessura da linha 
+cv2.drawContours(imagemPb, contornos, -1, (255, 0, 0), 2) # -1 define que quero pegar todas as bordas | cor da linha | espessura da linha 
 
 # Montagem do mosaico final
 ladolado = np.vstack([
@@ -49,7 +49,7 @@ ladolado = np.vstack([
 # cv2.waitKey(27)
 
 plt.figure(figsize=(10,8))
-plt.imshow(imagemOrig)
+plt.imshow(imagemPb)
 plt.title("Objetos detectados: " + str(len(contornos)))
 plt.axis("off")
 plt.show()
