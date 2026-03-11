@@ -2,7 +2,7 @@ from matplotlib import pyplot as plt
 import numpy as np
 import cv2
 
-imgagem = cv2.imread(r'C:\Users\babib\OneDrive\Documentos\identificar_padroes\aula1\moinhoFlorido.jpg')
+img = cv2.imread(r'C:\Users\babib\OneDrive\Documentos\identificar_padroes\aula1\moinhoFlorido.jpg')
 cv2.imshow('Imagem RGB', img)
 
 cores = ('b', 'g', 'r')
