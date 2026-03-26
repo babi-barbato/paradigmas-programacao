@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # Vai cair smile na prova SMILE
 
-pathImg = r'C:\Users\babib\OneDrive\Documentos\paradigmas-programacao\sprint2\aula5\palmeiras2.jpg'
+pathImg = r'C:\Users\babib\OneDrive\Documentos\paradigmas-programacao\sprint2\aula5\rostoMascara.jpg'
 # pathImg2 = r'C:\Users\babib\OneDrive\Documentos\paradigmas-programacao\sprint2\aula5\palmeiras.jpg'     1.3   60,60
 path1 = cv2.data.haarcascades + 'haarcascade_frontalface_default.xml'
 
