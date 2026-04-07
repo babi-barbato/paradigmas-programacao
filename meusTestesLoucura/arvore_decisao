@@ -1,0 +1,29 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="0.1609 <= 0.196\nentropy = 0.999\nsamples = 155\nvalue = [75, 80]\nclass = Bomba", fillcolor="#f3f9fd"] ;
+1 [label="0.0954 <= 0.08\nentropy = 0.752\nsamples = 65\nvalue = [51, 14]\nclass = Rocha", fillcolor="#eca46f"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="0.2111 <= 0.151\nentropy = 0.397\nsamples = 51\nvalue = [47, 4]\nclass = Rocha", fillcolor="#e78c4a"] ;
+1 -> 2 ;
+3 [label="entropy = 0.0\nsamples = 42\nvalue = [42, 0]\nclass = Rocha", fillcolor="#e58139"] ;
+2 -> 3 ;
+4 [label="entropy = 0.991\nsamples = 9\nvalue = [5, 4]\nclass = Rocha", fillcolor="#fae6d7"] ;
+2 -> 4 ;
+5 [label="0.8507 <= 0.509\nentropy = 0.863\nsamples = 14\nvalue = [4, 10]\nclass = Bomba", fillcolor="#88c4ef"] ;
+1 -> 5 ;
+6 [label="entropy = 0.439\nsamples = 11\nvalue = [1, 10]\nclass = Bomba", fillcolor="#4da7e8"] ;
+5 -> 6 ;
+7 [label="entropy = 0.0\nsamples = 3\nvalue = [3, 0]\nclass = Rocha", fillcolor="#e58139"] ;
+5 -> 7 ;
+8 [label="0.2641 <= 0.235\nentropy = 0.837\nsamples = 90\nvalue = [24, 66]\nclass = Bomba", fillcolor="#81c1ee"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="0.6692 <= 0.479\nentropy = 0.967\nsamples = 61\nvalue = [24, 37]\nclass = Bomba", fillcolor="#b9ddf6"] ;
+8 -> 9 ;
+10 [label="entropy = 0.803\nsamples = 49\nvalue = [12, 37]\nclass = Bomba", fillcolor="#79bded"] ;
+9 -> 10 ;
+11 [label="entropy = 0.0\nsamples = 12\nvalue = [12, 0]\nclass = Rocha", fillcolor="#e58139"] ;
+9 -> 11 ;
+12 [label="entropy = 0.0\nsamples = 29\nvalue = [0, 29]\nclass = Bomba", fillcolor="#399de5"] ;
+8 -> 12 ;
+}
